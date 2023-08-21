@@ -1,0 +1,11 @@
+.notfound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    flex-direction: column;
+}
+.notfound h2 a{
+    color: var(--highlight-color);
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+.user-list{
+    width: 250px;
+    padding: 30px;
+    background: #cde5d7;
+    color: var(--heading-color);
+}
+.user-list h2{
+    text-align: right;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.2rem;
+}
+.user-list .user-list-item{
+    display: flex;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.avatar-user img{
+    width: 30px;
+    height: 30px;
+}
+.userlistitems{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.user-list .online-user{
+    display: inline-block;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    background: #0ebb50;
+    border-radius: 50%;
+    margin-top: 2px;
+}

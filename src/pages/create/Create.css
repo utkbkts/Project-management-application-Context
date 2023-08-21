@@ -1,0 +1,25 @@
+.project{
+    height: 500px !important;
+    padding: 1rem !important;
+    margin-top: -2rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.project label{
+    display: flex;
+    flex-direction: column;
+}
+.project input{
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+}
+.proje-create{
+    width: 100%;
+}
+.btn{
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,33 @@
+.sidebar{
+    height: 150vh;
+    width: 300px;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.sidebar.inactive{
+height: auto;
+}
+.sidebar-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.user{
+    text-align: center;
+    padding: 3rem 2.5rem;
+    border-bottom: 1px solid #fff;
+}
+.links ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+
+}
+.links ul li a{
+    color: #fff;
+    padding: 1rem;
+}
+ul li.active{
+    background: #98c1d9;
+}
